@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    font-size: 17px;
+    line-height: 30 px;
+}
+
+body {
+    font-family: Dubai;
+    color: #3d3a3a;
+    font-weight: lighter;
+    line-height: 25px;
+}
+.brand{
+    display: block;
+    margin-top: 10px
+}
+#wrap {
+    min-width: 1320px;
+}
+h2{
+    font-family: 'Dubai';
+    font-weight: 450;
+    font-style: normal;
+    color: #89A385;
+    
+}
+.header_wrap{
+    background: url(../images/brand/banner/banner.png) no-repeat center;
+    height: 648px;
+    
+    text-align: center;
+}
+#header {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid #b9b9b9;
+    text-align: center;
+}
+.inner_header {
+    margin: 0 auto;
+    height: 105px;
+    width: 1320px;
+    position: relative;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+.gnb {
+    display: inline-block;
+    margin-top: 47px;
+}
+.gnb li a:hover{
+    color: #89A385;
+}
+
+.gnb>li {
+    float: left;
+    position: relative;
+
+}
+
+.gnb>li>a {
+    margin-right: 109px;
+    display: block;
+    padding: 13px 0;
+}
+
+.submenu {
+    position: absolute;
+    top: 58px;
+    left: -50px;
+    background-color: #a6bea1;
+    width: 100%;
+    z-index: 9;
+    display: none;
+    color: rgb(248, 244, 238);
+}
+
+.gnb li:hover .submenu {
+    display: block;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px;
+    border-bottom: #707070 solid 1px;
+}
+.submenu li a:hover{
+    color:#64866E;
+    background-color: #c9ddc4;
+}
+.event_a{
+    font-size: 12px;
+}
+.header_link {
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    z-index: 99;
+    font-size: 13px;
+}
+
+.header_link li {
+    float: left;
+}
+
+.header_link li a {
+    margin-left: 21px;
+}
+.banner p{
+    width: 1320px;
+    margin: 0 auto ;
+    font-size: 65px;
+    margin-top: 200px;
+    font-weight: 450;
+    color: white;
+}
+.text{
+    font-size: 16px;
+
+}
+#container{
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section1{
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+.brand_img{
+    text-align: center;
+    display: inline-block;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.brand_img li{
+    float: left;
+}
+.brand_img li:nth-child(2){
+    margin: 0 100px;
+}
+.brand_img p{
+    margin-top: 10px;
+    font-family: "Dubai";
+    margin-bottom: 20px;
+}
+.brand_img h3{
+    color: #64866E;
+    font-family: Minion Pro;
+}
+.section2{
+    margin-top: 200px;
+    
+}
+span{
+ display: block;
+ margin-top: 10px  
+}
+.section2 h2, .section2 p{
+    text-align: left;
+    margin-left: 100px;
+}
+.section2 p{
+    margin-top: 40px;
+}
+.right{
+    float: right;
+    margin-top: -50px;
+    margin-right: 60px
+    
+}
+.left{
+    float: left;
+}
+.section3{
+    margin-top: 1000px;
+    text-align: right;
+    width: 1320px;
+}
+.section3 h2{
+    text-align: right;
+    margin-right: 130px;
+}
+.section3 p{
+    text-align: right;
+    
+    padding-right: 130px;
+    box-sizing: border-box;
+}
+.section3 p{
+    margin: 30px 0;
+}
+.section3_wrap{
+    text-align: center;
+}
+.section4{
+    margin-top: 150px;
+}
+.section4 p{
+    margin: 40px 0;
+}
+#footer {
+    background-color: #e2e9e2;
+    margin-top: 300px;
+}
+
+.inner_footer {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+
+}
+#footer input {
+    padding: 15px 10px;
+    width: 423px;
+    margin-bottom: 12px;
+    background-color:  #e2e9e2;
+}
+
+.about {
+    font-weight: bold;
+    margin-top: 50px
+}
+.inner_footer {
+    padding: 100px;
+    box-sizing: border-box;
+}
+.inner_footer p {
+    margin-bottom: 8px;
+}
+.inner_footer img{
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+}
